@@ -28,9 +28,7 @@ def elements_counter(sequence):
 
 
 counted_elements = elements_counter('abzkfhiohfnlaanfnffnkkdamd')
-print(counted_elements)
 counted_elements_sorted = sorted(counted_elements.items())
-print(counted_elements_sorted)
 
 for item in counted_elements_sorted:
     key = item[0]
